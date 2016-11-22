@@ -1,0 +1,7 @@
+A)db.Vocabulary.find({"text":"feliz"}).explain({"executionStats":1})
+   291214
+B) 72 TimeMillis
+C) db.Vocabulary.createIndex({"text":1})
+D)db.Vocabulary.find({"text":"feliz"}).explain({"executionStats":1}) 
+   0
+E) 0 TimeMillis
