@@ -3,7 +3,7 @@ com um grande volume de informação sendo processada e armazenadas em bancos Tr
 Porem internamente voce tera uma infra fisica bem complexa. Nossa infra tera um banco de dados relacional, 
 no qual sera alimentado, atraves de um ERL, um DW para gerar no Analytics. Tambem teremos uma estrutura NoSQL, 
 no qual sera alimentada por redes sociais, arquivos CSV's e etc.... Dessa forma teremos uma estrutura em Hadoop, 
-para melhor desempenho e armazenamento, e o Spark lendo e gerando relatorios analiticos atraves dessas informações (Data Science). 
-Para resolver a infra estrutura fisica, podemos utilizar empresas que fornecem estruras na nuvem (Data Base as a Service), 
-como Amazon RedShif, Azure Table Service e etc... Dessa forma estamos livres da infra estrutura não nos atender, 
-por causa do numero de informações que será armazenada e acessada simultaneamente.
+para melhor desempenho e armazenamento, e o Spark lendo e gerando relatorios analiticos atraves dessas informações 
+(Data Science). Para resolver a infra estrutura fisica, podemos utilizar empresas que fornecem estruras na nuvem 
+(Data Base as a Service), como Amazon RedShif, Azure Table Service e etc... Dessa forma estamos livres da 
+infra estrutura não nos atender, por causa do numero de informações que será armazenada e acessada simultaneamente.
