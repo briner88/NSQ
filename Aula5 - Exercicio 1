@@ -1,0 +1,8 @@
+Criar uma infraestrutura de BigData, onde voce ter varios conjuntos de bancos de dados, 
+um processamente de um grande volume de informação. Porem internamente voe tera uma 
+infra fisica bem complexa. Nossa infra tera um banco de dados relacional, 
+no qual sera alimentado um DW para gerar relatorios. Tambem teremos uma estrutura NoSQL, 
+no qual sera alimentada por redes sociais, arquivos CSV's e etc.... Dessa forma teremos uma estrutura em Hadoop, 
+e um Spark lendo e gerando relatorios analiticos atraves dessas informações (Data Science). 
+Para resolver a infra estrutura fisica, podemos utilizar empresas que fornecem estruras na nuvem (Data Base as a Service), 
+como Amazon RedShif, Azure Table Service e etc... 
